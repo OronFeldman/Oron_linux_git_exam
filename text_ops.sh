@@ -6,6 +6,7 @@ grep -o '^#\s.*' README.md | sed 's/#//' > output/unique-headers.txt
 
 grep -o '[0-9]*' README.md | sort -n > output/sorted-numbers.txt
 
+awk '/# FEATURES/,/# GETTING/' README.md | sed 's/# FEATURES//' | sed 's/# GETTING//' | sed 's/STARTED//' > output/features-summary.txt
 
 
 
