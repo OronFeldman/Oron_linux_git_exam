@@ -10,5 +10,11 @@ awk '/# FEATURES/,/# GETTING/' README.md | sed 's/# FEATURES//' | sed 's/# GETTI
 
 grep -iw 'Calculator' README.md | sort -r -b -f > output/calculator-lines.txt
 
+cat ~/Oron_linux_git_exam/output/function-keyword-count.txt
+cat ~/Oron_linux_git_exam/output/unique-headers.txt
+cat ~/Oron_linux_git_exam/output/sorted-numbers.txt
+cat ~/Oron_linux_git_exam/output/features-summary.txt
+cat ~/Oron_linux_git_exam/output/calculator-lines.txt
+
 
 
